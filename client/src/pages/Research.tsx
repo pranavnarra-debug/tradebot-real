@@ -78,7 +78,7 @@ function ScoreBar({ score, threshold }: { score: number; threshold: number }) {
 }
 
 // ── Main page ─────────────────────────────────────────────────────────────
-export default function Research() {
+function Research() {
   const [, navigate] = useLocation();
   const [input, setInput]           = useState("");
   const [symbol, setSymbol]         = useState("");
@@ -512,3 +512,5 @@ export default function Research() {
     </div>
   );
 }
+
+export default Research;

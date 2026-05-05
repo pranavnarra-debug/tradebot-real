@@ -15,7 +15,7 @@ const bucketColor: Record<string, string> = {
   longterm: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
 };
 
-export default function Positions() {
+function Positions() {
   const { toast } = useToast();
   const [, navigate] = useLocation();
 
@@ -165,3 +165,5 @@ export default function Positions() {
     </div>
   );
 }
+
+export default Positions;

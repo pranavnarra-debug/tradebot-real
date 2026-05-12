@@ -1,4 +1,3 @@
-
-PASTE_TRADES_HERE
-
-export default Trades;
+export default function Trades() {
+  return <div>Trades loading...</div>;
+}

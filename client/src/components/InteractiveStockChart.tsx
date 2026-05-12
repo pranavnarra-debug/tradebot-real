@@ -1,2 +1,4 @@
 
-PASTE_INTERACTIVE_STOCK_CHART_HERE
+export default function InteractiveStockChart() {
+  return <div>Interactive stock chart loading...</div>;
+}

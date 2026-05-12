@@ -1,4 +1,4 @@
 
-<div>Dashboard loading...</div>
-
-export default Dashboard;
+export default function Dashboard() {
+  return <div>Dashboard loading...</div>;
+}

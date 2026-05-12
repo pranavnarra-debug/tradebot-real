@@ -1,4 +1,3 @@
-
-PASTE_SIGNALS_HERE
-
-export default Signals;
+export default function Signals() {
+  return <div>Signals loading...</div>;
+}

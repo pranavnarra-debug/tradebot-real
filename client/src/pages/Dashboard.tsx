@@ -1,4 +1,4 @@
 
-PASTE_DASHBOARD_HERE
+<div>Dashboard loading...</div>
 
 export default Dashboard;

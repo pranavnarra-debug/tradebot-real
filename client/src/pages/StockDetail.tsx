@@ -1,4 +1,4 @@
 
-PASTE_STOCK_DETAIL_HERE
-
-export default StockDetail;
+export default function StockDetail() {
+  return <div>Stock detail loading...</div>;
+}
